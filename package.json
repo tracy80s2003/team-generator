@@ -1,0 +1,23 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracy80s2003/team-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracy80s2003/team-generator/issues"
+  },
+  "homepage": "https://github.com/tracy80s2003/team-generator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
