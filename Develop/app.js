@@ -10,13 +10,51 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+let employeeArr = [];
 
+//Whenever we call the render function that we are getting from our library we will use it as such: render(employeArr)
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 
+inquirer.prompt(
+    [
+        {
+            type: 'input',
+            message: "What is the employee name?",
+            name: "employeeName",
+            // validate property to check that the user provided a value
+            validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
+        },
+        {
+            type: 'input',
+            message: "What is the employee ID number?",
+            name: "employeeID",
+            // validate property to check that the user provided a value
+            validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
+        },
+        {
+            type: 'input',
+            message: "What is the employee email address?",
+            name: "employeeEmail",
+            // validate property to check that the user provided a value
+            validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
+        },
+        {
+            type: 'input',
+            message: "What is the employee name?",
+            name: "employeeName",
+            // validate property to check that the user provided a value
+            validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
+        },
+    ])
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
+
+// let render = function (template, node) {
+// 	if (!node) return;
+// 	node.innerHTML = template;
+// };
 
 // After you have your html, you're now ready to create an HTML file using the HTML
 // returned from the `render` function. Now write it to a file named `team.html` in the
