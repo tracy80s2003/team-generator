@@ -23,9 +23,9 @@ A walkthrough video has been provided to demonstrate its functionality.
 
 ## Demo
 See demos below: 
-<img src="./assets/images/recording.gif" />
+<img src="./assets/images/demo.gif" />
 
-https://drive.google.com/file/d/1RCz3f7QQGvky0JuL_75xRHaKWQ5Mtchz/view
+https://drive.google.com/file/d/1ktM8VLSb9l5QSl1szTs2huuADEqrQ8ud/view
 
 
-https://tracy80s2003.github.io/readme-generator/
+https://tracy80s2003.github.io/team-generator/
